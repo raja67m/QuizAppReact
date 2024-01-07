@@ -1,0 +1,122 @@
+
+body {
+   font-family: 'Arial', sans-serif;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: #5257f0;
+ }
+ .question-container{
+   background-color: #0b0281;
+   border-radius: 8px;
+   display: flex;
+  justify-content: space-between;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+   padding: 20px;
+   width: 400px;
+   width: 100%;
+   color: white;
+ }
+ .quesFlex{
+   display: flex;
+   flex-direction: row;
+ }
+ .Back{
+   padding:  8px 20px;
+   margin-top: 150px;
+   border: none;
+   border-radius: 8px;
+   background-color: #1a0bf6;
+   font-size: 12px;
+   font-weight: bold;
+   color: white;
+   cursor: pointer;
+ 
+ }
+ 
+ .answer{
+ display: flex;
+ flex-direction: column;
+ margin-left: 40px;
+ }
+ 
+ .Answer-button{
+   margin: 5px;
+   margin-top: 7px;
+   padding: 15px 100px;
+   border: none;
+   border-radius: 10px;
+   background-color: white;
+   font-size: 13px;
+   font-weight: bold;
+   cursor: pointer;
+ }
+ .Answer-button:hover{
+   background-color:rgb(111, 141, 247);
+   color: black;
+ }
+ .Back-Score{
+   padding:  8px 20px;
+  margin: 5px;
+   border: none;
+   border-radius: 8px;
+   background-color: #1a0bf6;
+   font-size: 12px;
+   font-weight: bold;
+   color: white;
+   cursor: pointer;
+ }
+ .Page-Number{
+   margin-left: 240px;
+   margin-top:30px;
+ }
+ h2{
+   color: white;
+ }
+ .result-container {
+   text-align: center;
+   margin-left: 40px;
+ }
+ 
+ .result-container ul {
+   padding: 0;
+ }
+ 
+ .result-container li {
+   background-color: #fff;
+   border-radius: 8px;
+   color: black;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   margin: 10px 0;
+   padding: 20px;
+   font-weight: bold;
+   list-style: none;
+ }
+ 
+ .correct {
+   border: 2px solid #4caf50;
+  
+ 
+ }
+ 
+ .incorrect {
+   border: 2px solid #e74c3c;
+  
+ }
+ 
+ .result-container li p {
+   margin: 5px 0;
+ }
+ 
+ 
+ 
+ .result-container li .correct span {
+   color: #4caf50;
+ }
+ 
+ .result-container li .incorrect span {
+   color: #e74c3c;
+ }
